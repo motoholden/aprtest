@@ -15,8 +15,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *humanLabel;
 //換算ボタン
 - (IBAction)calc:(id)sender;
-
-
 //換算する関数
 - (double) catAgeToHumanAge:(double)catAge;
 
