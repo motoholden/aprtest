@@ -6,6 +6,7 @@
 //  Copyright (c) 2014年 okada-mac. All rights reserved.
 //
 //ここに適当なやついれたよーーーーーーーー
+//とりあえずもう一個適当なやつ入れてみた！
 
 #import "ViewController.h"
 
