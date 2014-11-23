@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1CCA3761A17296A00FF53F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CCA3751A17296A00FF53F0 /* main.m */; };
+		F1CCA3791A17296A00FF53F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CCA3781A17296A00FF53F0 /* AppDelegate.m */; };
+		F1CCA37C1A17296A00FF53F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CCA37B1A17296A00FF53F0 /* ViewController.m */; };
+		F1CCA37F1A17296A00FF53F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA37D1A17296A00FF53F0 /* Main.storyboard */; };
+		F1CCA3811A17296A00FF53F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA3801A17296A00FF53F0 /* Images.xcassets */; };
+		F1CCA3841A17296A00FF53F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1CCA3821A17296A00FF53F0 /* LaunchScreen.xib */; };
+		F1CCA3901A17296A00FF53F0 /* OkadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CCA38F1A17296A00FF53F0 /* OkadaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1CCA38A1A17296A00FF53F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1CCA3681A17296A00FF53F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1CCA36F1A17296A00FF53F0;
+			remoteInfo = Okada;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1CCA3701A17296A00FF53F0 /* Okada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Okada.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CCA3741A17296A00FF53F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CCA3751A17296A00FF53F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1CCA3771A17296A00FF53F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1CCA3781A17296A00FF53F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1CCA37A1A17296A00FF53F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1CCA37B1A17296A00FF53F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1CCA37E1A17296A00FF53F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1CCA3801A17296A00FF53F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1CCA3831A17296A00FF53F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1CCA3891A17296A00FF53F0 /* OkadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CCA38E1A17296A00FF53F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CCA38F1A17296A00FF53F0 /* OkadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OkadaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CCA36D1A17296A00FF53F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CCA3861A17296A00FF53F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CCA3671A17296A00FF53F0 = {
+			isa = PBXGroup;
+			children = (
+				F1CCA3721A17296A00FF53F0 /* Okada */,
+				F1CCA38C1A17296A00FF53F0 /* OkadaTests */,
+				F1CCA3711A17296A00FF53F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CCA3711A17296A00FF53F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCA3701A17296A00FF53F0 /* Okada.app */,
+				F1CCA3891A17296A00FF53F0 /* OkadaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CCA3721A17296A00FF53F0 /* Okada */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCA3771A17296A00FF53F0 /* AppDelegate.h */,
+				F1CCA3781A17296A00FF53F0 /* AppDelegate.m */,
+				F1CCA37A1A17296A00FF53F0 /* ViewController.h */,
+				F1CCA37B1A17296A00FF53F0 /* ViewController.m */,
+				F1CCA37D1A17296A00FF53F0 /* Main.storyboard */,
+				F1CCA3801A17296A00FF53F0 /* Images.xcassets */,
+				F1CCA3821A17296A00FF53F0 /* LaunchScreen.xib */,
+				F1CCA3731A17296A00FF53F0 /* Supporting Files */,
+			);
+			path = Okada;
+			sourceTree = "<group>";
+		};
+		F1CCA3731A17296A00FF53F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCA3741A17296A00FF53F0 /* Info.plist */,
+				F1CCA3751A17296A00FF53F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1CCA38C1A17296A00FF53F0 /* OkadaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCA38F1A17296A00FF53F0 /* OkadaTests.m */,
+				F1CCA38D1A17296A00FF53F0 /* Supporting Files */,
+			);
+			path = OkadaTests;
+			sourceTree = "<group>";
+		};
+		F1CCA38D1A17296A00FF53F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1CCA38E1A17296A00FF53F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CCA36F1A17296A00FF53F0 /* Okada */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CCA3931A17296A00FF53F0 /* Build configuration list for PBXNativeTarget "Okada" */;
+			buildPhases = (
+				F1CCA36C1A17296A00FF53F0 /* Sources */,
+				F1CCA36D1A17296A00FF53F0 /* Frameworks */,
+				F1CCA36E1A17296A00FF53F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Okada;
+			productName = Okada;
+			productReference = F1CCA3701A17296A00FF53F0 /* Okada.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1CCA3881A17296A00FF53F0 /* OkadaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CCA3961A17296A00FF53F0 /* Build configuration list for PBXNativeTarget "OkadaTests" */;
+			buildPhases = (
+				F1CCA3851A17296A00FF53F0 /* Sources */,
+				F1CCA3861A17296A00FF53F0 /* Frameworks */,
+				F1CCA3871A17296A00FF53F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CCA38B1A17296A00FF53F0 /* PBXTargetDependency */,
+			);
+			name = OkadaTests;
+			productName = OkadaTests;
+			productReference = F1CCA3891A17296A00FF53F0 /* OkadaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CCA3681A17296A00FF53F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "okada-mac";
+				TargetAttributes = {
+					F1CCA36F1A17296A00FF53F0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F1CCA3881A17296A00FF53F0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F1CCA36F1A17296A00FF53F0;
+					};
+				};
+			};
+			buildConfigurationList = F1CCA36B1A17296A00FF53F0 /* Build configuration list for PBXProject "Okada" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CCA3671A17296A00FF53F0;
+			productRefGroup = F1CCA3711A17296A00FF53F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CCA36F1A17296A00FF53F0 /* Okada */,
+				F1CCA3881A17296A00FF53F0 /* OkadaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CCA36E1A17296A00FF53F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CCA37F1A17296A00FF53F0 /* Main.storyboard in Resources */,
+				F1CCA3841A17296A00FF53F0 /* LaunchScreen.xib in Resources */,
+				F1CCA3811A17296A00FF53F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CCA3871A17296A00FF53F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CCA36C1A17296A00FF53F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CCA37C1A17296A00FF53F0 /* ViewController.m in Sources */,
+				F1CCA3791A17296A00FF53F0 /* AppDelegate.m in Sources */,
+				F1CCA3761A17296A00FF53F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1CCA3851A17296A00FF53F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CCA3901A17296A00FF53F0 /* OkadaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1CCA38B1A17296A00FF53F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1CCA36F1A17296A00FF53F0 /* Okada */;
+			targetProxy = F1CCA38A1A17296A00FF53F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1CCA37D1A17296A00FF53F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CCA37E1A17296A00FF53F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1CCA3821A17296A00FF53F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CCA3831A17296A00FF53F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CCA3911A17296A00FF53F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1CCA3921A17296A00FF53F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CCA3941A17296A00FF53F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Okada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1CCA3951A17296A00FF53F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Okada/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1CCA3971A17296A00FF53F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OkadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okada.app/Okada";
+			};
+			name = Debug;
+		};
+		F1CCA3981A17296A00FF53F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OkadaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okada.app/Okada";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CCA36B1A17296A00FF53F0 /* Build configuration list for PBXProject "Okada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CCA3911A17296A00FF53F0 /* Debug */,
+				F1CCA3921A17296A00FF53F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CCA3931A17296A00FF53F0 /* Build configuration list for PBXNativeTarget "Okada" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CCA3941A17296A00FF53F0 /* Debug */,
+				F1CCA3951A17296A00FF53F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CCA3961A17296A00FF53F0 /* Build configuration list for PBXNativeTarget "OkadaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CCA3971A17296A00FF53F0 /* Debug */,
+				F1CCA3981A17296A00FF53F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1CCA3681A17296A00FF53F0 /* Project object */;
+}

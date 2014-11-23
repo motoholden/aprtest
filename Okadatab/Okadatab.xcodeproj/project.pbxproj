@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F19FD1561A1844AA00F3A7A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F19FD1551A1844AA00F3A7A2 /* main.m */; };
+		F19FD1591A1844AA00F3A7A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F19FD1581A1844AA00F3A7A2 /* AppDelegate.m */; };
+		F19FD15C1A1844AA00F3A7A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F19FD15B1A1844AA00F3A7A2 /* ViewController.m */; };
+		F19FD15F1A1844AA00F3A7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19FD15D1A1844AA00F3A7A2 /* Main.storyboard */; };
+		F19FD1611A1844AA00F3A7A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19FD1601A1844AA00F3A7A2 /* Images.xcassets */; };
+		F19FD1641A1844AA00F3A7A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19FD1621A1844AA00F3A7A2 /* LaunchScreen.xib */; };
+		F19FD1701A1844AA00F3A7A2 /* OkadatabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19FD16F1A1844AA00F3A7A2 /* OkadatabTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F19FD16A1A1844AA00F3A7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F19FD1481A1844AA00F3A7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F19FD14F1A1844AA00F3A7A2;
+			remoteInfo = Okadatab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F19FD1501A1844AA00F3A7A2 /* Okadatab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Okadatab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19FD1541A1844AA00F3A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19FD1551A1844AA00F3A7A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F19FD1571A1844AA00F3A7A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F19FD1581A1844AA00F3A7A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F19FD15A1A1844AA00F3A7A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F19FD15B1A1844AA00F3A7A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F19FD15E1A1844AA00F3A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F19FD1601A1844AA00F3A7A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F19FD1631A1844AA00F3A7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F19FD1691A1844AA00F3A7A2 /* OkadatabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OkadatabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19FD16E1A1844AA00F3A7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19FD16F1A1844AA00F3A7A2 /* OkadatabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OkadatabTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F19FD14D1A1844AA00F3A7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD1661A1844AA00F3A7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F19FD1471A1844AA00F3A7A2 = {
+			isa = PBXGroup;
+			children = (
+				F19FD1521A1844AA00F3A7A2 /* Okadatab */,
+				F19FD16C1A1844AA00F3A7A2 /* OkadatabTests */,
+				F19FD1511A1844AA00F3A7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F19FD1511A1844AA00F3A7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD1501A1844AA00F3A7A2 /* Okadatab.app */,
+				F19FD1691A1844AA00F3A7A2 /* OkadatabTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F19FD1521A1844AA00F3A7A2 /* Okadatab */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD1571A1844AA00F3A7A2 /* AppDelegate.h */,
+				F19FD1581A1844AA00F3A7A2 /* AppDelegate.m */,
+				F19FD15A1A1844AA00F3A7A2 /* ViewController.h */,
+				F19FD15B1A1844AA00F3A7A2 /* ViewController.m */,
+				F19FD15D1A1844AA00F3A7A2 /* Main.storyboard */,
+				F19FD1601A1844AA00F3A7A2 /* Images.xcassets */,
+				F19FD1621A1844AA00F3A7A2 /* LaunchScreen.xib */,
+				F19FD1531A1844AA00F3A7A2 /* Supporting Files */,
+			);
+			path = Okadatab;
+			sourceTree = "<group>";
+		};
+		F19FD1531A1844AA00F3A7A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD1541A1844AA00F3A7A2 /* Info.plist */,
+				F19FD1551A1844AA00F3A7A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F19FD16C1A1844AA00F3A7A2 /* OkadatabTests */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD16F1A1844AA00F3A7A2 /* OkadatabTests.m */,
+				F19FD16D1A1844AA00F3A7A2 /* Supporting Files */,
+			);
+			path = OkadatabTests;
+			sourceTree = "<group>";
+		};
+		F19FD16D1A1844AA00F3A7A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F19FD16E1A1844AA00F3A7A2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F19FD14F1A1844AA00F3A7A2 /* Okadatab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19FD1731A1844AA00F3A7A2 /* Build configuration list for PBXNativeTarget "Okadatab" */;
+			buildPhases = (
+				F19FD14C1A1844AA00F3A7A2 /* Sources */,
+				F19FD14D1A1844AA00F3A7A2 /* Frameworks */,
+				F19FD14E1A1844AA00F3A7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Okadatab;
+			productName = Okadatab;
+			productReference = F19FD1501A1844AA00F3A7A2 /* Okadatab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F19FD1681A1844AA00F3A7A2 /* OkadatabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F19FD1761A1844AA00F3A7A2 /* Build configuration list for PBXNativeTarget "OkadatabTests" */;
+			buildPhases = (
+				F19FD1651A1844AA00F3A7A2 /* Sources */,
+				F19FD1661A1844AA00F3A7A2 /* Frameworks */,
+				F19FD1671A1844AA00F3A7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F19FD16B1A1844AA00F3A7A2 /* PBXTargetDependency */,
+			);
+			name = OkadatabTests;
+			productName = OkadatabTests;
+			productReference = F19FD1691A1844AA00F3A7A2 /* OkadatabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F19FD1481A1844AA00F3A7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "okada-mac";
+				TargetAttributes = {
+					F19FD14F1A1844AA00F3A7A2 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F19FD1681A1844AA00F3A7A2 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F19FD14F1A1844AA00F3A7A2;
+					};
+				};
+			};
+			buildConfigurationList = F19FD14B1A1844AA00F3A7A2 /* Build configuration list for PBXProject "Okadatab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F19FD1471A1844AA00F3A7A2;
+			productRefGroup = F19FD1511A1844AA00F3A7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F19FD14F1A1844AA00F3A7A2 /* Okadatab */,
+				F19FD1681A1844AA00F3A7A2 /* OkadatabTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F19FD14E1A1844AA00F3A7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19FD15F1A1844AA00F3A7A2 /* Main.storyboard in Resources */,
+				F19FD1641A1844AA00F3A7A2 /* LaunchScreen.xib in Resources */,
+				F19FD1611A1844AA00F3A7A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD1671A1844AA00F3A7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F19FD14C1A1844AA00F3A7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19FD15C1A1844AA00F3A7A2 /* ViewController.m in Sources */,
+				F19FD1591A1844AA00F3A7A2 /* AppDelegate.m in Sources */,
+				F19FD1561A1844AA00F3A7A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F19FD1651A1844AA00F3A7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19FD1701A1844AA00F3A7A2 /* OkadatabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F19FD16B1A1844AA00F3A7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F19FD14F1A1844AA00F3A7A2 /* Okadatab */;
+			targetProxy = F19FD16A1A1844AA00F3A7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F19FD15D1A1844AA00F3A7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19FD15E1A1844AA00F3A7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F19FD1621A1844AA00F3A7A2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F19FD1631A1844AA00F3A7A2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F19FD1711A1844AA00F3A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F19FD1721A1844AA00F3A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F19FD1741A1844AA00F3A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Okadatab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F19FD1751A1844AA00F3A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Okadatab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F19FD1771A1844AA00F3A7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OkadatabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okadatab.app/Okadatab";
+			};
+			name = Debug;
+		};
+		F19FD1781A1844AA00F3A7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OkadatabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Okadatab.app/Okadatab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F19FD14B1A1844AA00F3A7A2 /* Build configuration list for PBXProject "Okadatab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19FD1711A1844AA00F3A7A2 /* Debug */,
+				F19FD1721A1844AA00F3A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F19FD1731A1844AA00F3A7A2 /* Build configuration list for PBXNativeTarget "Okadatab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19FD1741A1844AA00F3A7A2 /* Debug */,
+				F19FD1751A1844AA00F3A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F19FD1761A1844AA00F3A7A2 /* Build configuration list for PBXNativeTarget "OkadatabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F19FD1771A1844AA00F3A7A2 /* Debug */,
+				F19FD1781A1844AA00F3A7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F19FD1481A1844AA00F3A7A2 /* Project object */;
+}
