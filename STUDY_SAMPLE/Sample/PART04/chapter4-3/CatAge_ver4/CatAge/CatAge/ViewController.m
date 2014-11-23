@@ -70,8 +70,7 @@
 }
 
 // 入力文字数を制限する
-- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range
-replacementString:(NSString *)string
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string
 {
     // 変更前のテキストを取得
     NSMutableString *tmp = [_catField.text mutableCopy];
