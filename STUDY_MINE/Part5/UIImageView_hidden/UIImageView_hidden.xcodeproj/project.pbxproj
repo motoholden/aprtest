@@ -14,6 +14,7 @@
 		F17DD0171A230B000045C8E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17DD0161A230B000045C8E0 /* Images.xcassets */; };
 		F17DD01A1A230B000045C8E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F17DD0181A230B000045C8E0 /* LaunchScreen.xib */; };
 		F17DD0261A230B000045C8E0 /* UIImageView_hiddenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17DD0251A230B000045C8E0 /* UIImageView_hiddenTests.m */; };
+		F17DD0301A230B170045C8E0 /* shami4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F17DD02F1A230B170045C8E0 /* shami4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F17DD01F1A230B000045C8E0 /* UIImageView_hiddenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImageView_hiddenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17DD0241A230B000045C8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F17DD0251A230B000045C8E0 /* UIImageView_hiddenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIImageView_hiddenTests.m; sourceTree = "<group>"; };
+		F17DD02F1A230B170045C8E0 /* shami4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shami4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				F17DD0101A230B000045C8E0 /* ViewController.h */,
 				F17DD0111A230B000045C8E0 /* ViewController.m */,
 				F17DD0131A230B000045C8E0 /* Main.storyboard */,
+				F17DD02F1A230B170045C8E0 /* shami4.jpg */,
 				F17DD0161A230B000045C8E0 /* Images.xcassets */,
 				F17DD0181A230B000045C8E0 /* LaunchScreen.xib */,
 				F17DD0091A230B000045C8E0 /* Supporting Files */,
@@ -202,6 +205,7 @@
 				F17DD0151A230B000045C8E0 /* Main.storyboard in Resources */,
 				F17DD01A1A230B000045C8E0 /* LaunchScreen.xib in Resources */,
 				F17DD0171A230B000045C8E0 /* Images.xcassets in Resources */,
+				F17DD0301A230B170045C8E0 /* shami4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
