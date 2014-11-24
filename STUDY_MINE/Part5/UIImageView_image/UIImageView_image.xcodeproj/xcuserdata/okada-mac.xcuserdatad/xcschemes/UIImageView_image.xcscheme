@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-               BuildableName = "addSubView_Label.app"
-               BlueprintName = "addSubView_Label"
-               ReferencedContainer = "container:addSubView_Label.xcodeproj">
+               BlueprintIdentifier = "F17DCFCF1A23043C0045C8E0"
+               BuildableName = "UIImageView_image.app"
+               BlueprintName = "UIImageView_image"
+               ReferencedContainer = "container:UIImageView_image.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DB991E1A22D5F200EE05EC"
-               BuildableName = "addSubView_LabelTests.xctest"
-               BlueprintName = "addSubView_LabelTests"
-               ReferencedContainer = "container:addSubView_Label.xcodeproj">
+               BlueprintIdentifier = "F17DCFE81A23043C0045C8E0"
+               BuildableName = "UIImageView_imageTests.xctest"
+               BlueprintName = "UIImageView_imageTests"
+               ReferencedContainer = "container:UIImageView_image.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DB991E1A22D5F200EE05EC"
-               BuildableName = "addSubView_LabelTests.xctest"
-               BlueprintName = "addSubView_LabelTests"
-               ReferencedContainer = "container:addSubView_Label.xcodeproj">
+               BlueprintIdentifier = "F17DCFE81A23043C0045C8E0"
+               BuildableName = "UIImageView_imageTests.xctest"
+               BlueprintName = "UIImageView_imageTests"
+               ReferencedContainer = "container:UIImageView_image.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-            BuildableName = "addSubView_Label.app"
-            BlueprintName = "addSubView_Label"
-            ReferencedContainer = "container:addSubView_Label.xcodeproj">
+            BlueprintIdentifier = "F17DCFCF1A23043C0045C8E0"
+            BuildableName = "UIImageView_image.app"
+            BlueprintName = "UIImageView_image"
+            ReferencedContainer = "container:UIImageView_image.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-            BuildableName = "addSubView_Label.app"
-            BlueprintName = "addSubView_Label"
-            ReferencedContainer = "container:addSubView_Label.xcodeproj">
+            BlueprintIdentifier = "F17DCFCF1A23043C0045C8E0"
+            BuildableName = "UIImageView_image.app"
+            BlueprintName = "UIImageView_image"
+            ReferencedContainer = "container:UIImageView_image.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-            BuildableName = "addSubView_Label.app"
-            BlueprintName = "addSubView_Label"
-            ReferencedContainer = "container:addSubView_Label.xcodeproj">
+            BlueprintIdentifier = "F17DCFCF1A23043C0045C8E0"
+            BuildableName = "UIImageView_image.app"
+            BlueprintName = "UIImageView_image"
+            ReferencedContainer = "container:UIImageView_image.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

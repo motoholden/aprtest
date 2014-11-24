@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-               BuildableName = "addSubView_Label.app"
-               BlueprintName = "addSubView_Label"
-               ReferencedContainer = "container:addSubView_Label.xcodeproj">
+               BlueprintIdentifier = "92D47E7817BF515200F38671"
+               BuildableName = "ex_removeFromSuperView.app"
+               BlueprintName = "ex_removeFromSuperView"
+               ReferencedContainer = "container:ex_removeFromSuperView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DB991E1A22D5F200EE05EC"
-               BuildableName = "addSubView_LabelTests.xctest"
-               BlueprintName = "addSubView_LabelTests"
-               ReferencedContainer = "container:addSubView_Label.xcodeproj">
+               BlueprintIdentifier = "92D47E9917BF515200F38671"
+               BuildableName = "ex_removeFromSuperViewTests.xctest"
+               BlueprintName = "ex_removeFromSuperViewTests"
+               ReferencedContainer = "container:ex_removeFromSuperView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F1DB991E1A22D5F200EE05EC"
-               BuildableName = "addSubView_LabelTests.xctest"
-               BlueprintName = "addSubView_LabelTests"
-               ReferencedContainer = "container:addSubView_Label.xcodeproj">
+               BlueprintIdentifier = "92D47E9917BF515200F38671"
+               BuildableName = "ex_removeFromSuperViewTests.xctest"
+               BlueprintName = "ex_removeFromSuperViewTests"
+               ReferencedContainer = "container:ex_removeFromSuperView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-            BuildableName = "addSubView_Label.app"
-            BlueprintName = "addSubView_Label"
-            ReferencedContainer = "container:addSubView_Label.xcodeproj">
+            BlueprintIdentifier = "92D47E7817BF515200F38671"
+            BuildableName = "ex_removeFromSuperView.app"
+            BlueprintName = "ex_removeFromSuperView"
+            ReferencedContainer = "container:ex_removeFromSuperView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -75,10 +75,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-            BuildableName = "addSubView_Label.app"
-            BlueprintName = "addSubView_Label"
-            ReferencedContainer = "container:addSubView_Label.xcodeproj">
+            BlueprintIdentifier = "92D47E7817BF515200F38671"
+            BuildableName = "ex_removeFromSuperView.app"
+            BlueprintName = "ex_removeFromSuperView"
+            ReferencedContainer = "container:ex_removeFromSuperView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -93,10 +93,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F1DB99051A22D5F200EE05EC"
-            BuildableName = "addSubView_Label.app"
-            BlueprintName = "addSubView_Label"
-            ReferencedContainer = "container:addSubView_Label.xcodeproj">
+            BlueprintIdentifier = "92D47E7817BF515200F38671"
+            BuildableName = "ex_removeFromSuperView.app"
+            BlueprintName = "ex_removeFromSuperView"
+            ReferencedContainer = "container:ex_removeFromSuperView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

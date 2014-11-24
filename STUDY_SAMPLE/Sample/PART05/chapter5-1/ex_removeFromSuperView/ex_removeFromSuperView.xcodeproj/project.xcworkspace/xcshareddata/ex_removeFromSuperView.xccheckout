@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>08617AF8-286D-4E54-9DC9-CB574170AA4B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ex_removeFromSuperView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7C38F455D9A9B1128214EA538688E854608659AF</key>
+		<string>https://github.com/motoholden/aprtest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>STUDY_SAMPLE/Sample/PART05/chapter5-1/ex_removeFromSuperView/ex_removeFromSuperView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7C38F455D9A9B1128214EA538688E854608659AF</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/motoholden/aprtest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7C38F455D9A9B1128214EA538688E854608659AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C38F455D9A9B1128214EA538688E854608659AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aprtest</string>
+		</dict>
+	</array>
+</dict>
+</plist>
