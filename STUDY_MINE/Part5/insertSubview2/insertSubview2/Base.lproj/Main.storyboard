@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dai.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H0J-C3-CBJ">
+                                <rect key="frame" x="11" y="15" width="197" height="198"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="odawarajou.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="a0K-RX-SXS">
+                                <rect key="frame" x="21" y="25" width="197" height="198"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="odawarajou.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gtt-hV-MSY">
+                                <rect key="frame" x="31" y="35" width="197" height="198"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="circlewalk.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qbH-xT-783">
+                                <rect key="frame" x="41" y="45" width="197" height="198"/>
+                            </imageView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="omI-bn-gde">
+                                <rect key="frame" x="191" y="309" width="94" height="29"/>
+                                <connections>
+                                    <action selector="valueChanged:" destination="vXZ-lx-hvc" eventType="valueChanged" id="9am-z0-GtX"/>
+                                </connections>
+                            </stepper>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="omI-bn-gde" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="244" id="8B7-Pe-c0w"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="omI-bn-gde" secondAttribute="bottom" constant="8" symbolic="YES" id="mAy-9S-8UB"/>
+                            <constraint firstItem="omI-bn-gde" firstAttribute="top" secondItem="qbH-xT-783" secondAttribute="bottom" constant="355" id="oMD-MG-jnX"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="dai" destination="H0J-C3-CBJ" id="Ieq-cm-VLq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circlewalk.jpg" width="320" height="240"/>
+        <image name="dai.jpg" width="320" height="240"/>
+        <image name="odawarajou.jpg" width="320" height="240"/>
+    </resources>
+</document>
