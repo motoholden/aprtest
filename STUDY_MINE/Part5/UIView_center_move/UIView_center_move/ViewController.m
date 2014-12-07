@@ -13,8 +13,6 @@
     UIImageView *carImageView;
 }
 
-
-@property (strong, nonatomic) IBOutlet UIImageView *car;
 - (IBAction)move:(id)sender;
 - (IBAction)decrease:(id)sender;
 @end
@@ -26,8 +24,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     //画像読み込み
     imageData = [UIImage imageNamed:@"car_R.png"];
-    CGRect rect =CGRectMake(100,200,100,100);
-    carImageView = [[UIImageView alloc] initWithFrame:rect];
+    carImageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 200, 100, 100)];
     //イメージビューにイメージ設定
     carImageView.image = imageData;
     carImageView.contentMode = UIViewContentModeScaleAspectFit;
