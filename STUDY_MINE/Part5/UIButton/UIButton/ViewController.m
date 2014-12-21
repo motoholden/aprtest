@@ -12,15 +12,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //ボタン作成
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+    UIButton *button =[UIButton buttonWithType:UIButtonTypeSystem];
     //ボタンタイトル
-    [button setTitle:@"test" forState:UIControlStateNormal];
-    [button setTitle:@"aaaa" forState:UIControlStateHighlighted];
-    button.titleLabel.font = [UIFont boldSystemFontOfSize: 18];
-    //ボタン領域
-    button.frame = CGRectMake(50, 50, 100,40);
-    //ビューに追加
+    [button setTitle:@"aaa" forState:UIControlStateNormal];
+    [button setTitle:@"bbb" forState:UIControlStateHighlighted];
+    button.titleLabel.font = [UIFont boldSystemFontOfSize:18];
+    //ボタンの領域
+    button.frame = CGRectMake(50, 50, 100, 40);
+    //ボタンをビューに表示
     [self.view addSubview:button];
+    
+//    UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
+//    //ボタンタイトル
+//    [button setTitle:@"test" forState:UIControlStateNormal];
+//    [button setTitle:@"aaaa" forState:UIControlStateHighlighted];
+//    button.titleLabel.font = [UIFont boldSystemFontOfSize: 18];
+//    //ボタン領域
+//    button.frame = CGRectMake(50, 50, 100,40);
+//    //ビューに追加
+//    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning {

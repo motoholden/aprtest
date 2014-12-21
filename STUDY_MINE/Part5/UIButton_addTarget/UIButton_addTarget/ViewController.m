@@ -6,9 +6,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-//ボタンが押されたときのアクション
--(void) hello:(UIButton *)sender;
-
+- (void) hello:(UIButton *)sender;
 @end
 
 @implementation ViewController
@@ -16,12 +14,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
     //ボタン作成
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     //タイトルとフォント
-    [button setTitle:@"Hello" forState:UIControlStateNormal];
+    //有効状態
+    [button setTitle:@"test" forState:UIControlStateNormal];
+    //無効状態
+    [button setTitle:@"bbbb" forState:UIControlStateDisabled];
     button.titleLabel.font = [UIFont boldSystemFontOfSize: 18];
-    //文字色と背景
+    //ボタンと背景色
     button.tintColor = [UIColor whiteColor];
     button.backgroundColor = [UIColor redColor];
     //表示位置とサイズ
@@ -37,8 +39,9 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) hello:(UIButton *)sender{
+- (void) hello:(UIButton *)sender{
     NSLog(@"okada");
+    sender.enabled = NO;
 }
 
 @end
